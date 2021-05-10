@@ -16,7 +16,7 @@ export const AppRouter = () => {
         <Router>
             <>
                 <Switch>
-                    <PublicRoute exact path="/signin" component={Register} />
+                    <PublicRoute exact path="/signup" component={Register} />
                     <PublicRoute exact path="/login" component={Login} />
                     <PrivateRoute exact path="/repos" component={Home} />
                     {/* <Route exact path="/events" component={Login} /> */}

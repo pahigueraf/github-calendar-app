@@ -20,7 +20,7 @@ export const NavBar = () => {
                 <h2>Github & Calendar App</h2>
                 </Navbar.Brand>
                 <div className="nav-links">
-                {authUser && <NavLink exact activeClassName="active" to="/register">Sign Up</NavLink>}
+                {authUser && <NavLink exact activeClassName="active" to="/signup">Sign Up</NavLink>}
                 {authUser && <NavLink exact activeClassName="active" to="/login">Sign In</NavLink>}
                 {!authUser && <NavLink exact activeClassName="active" to="/login" onClick={logout}>Logout</NavLink>}
                 </div>
