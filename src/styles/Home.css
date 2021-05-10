@@ -1,0 +1,16 @@
+.fav, .not-fav{
+    cursor: pointer;
+}
+
+.fav{
+    color:yellow;
+}
+.not-Fav{
+    color:black;
+}
+.repos-table,.options{
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+h2{
+    color:white
+}
+.navbar{
+    height:10%
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.nav-links a{
+    padding: 5px;
+    color:white;
+}
